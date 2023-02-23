@@ -1,0 +1,2 @@
+canvas==0.3
+reportlab==3.6.12
