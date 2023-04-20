@@ -73,7 +73,8 @@ def cleanup(images):
     for image in images:
         if os.path.exists(image):
             #os.remove(image)
-            print(f'Image {image} successfully deleted.')
+            #print(f'Image {image} successfully deleted.')
+            pass
 
 def generate_pdf(info, images, pdf_file_name):
     c = Canvas(pdf_file_name, pagesize=portrait(info['pages'][0]['viewport']))
